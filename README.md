@@ -1,2 +1,2 @@
 # Arun-Travel-Reviews-Analysis
-This project analyses tourist reviews for accommodation, food and attractions in a district of the UK
+Development of an Aspect Based Sentiment Model for Travel Reviews in Arun District
