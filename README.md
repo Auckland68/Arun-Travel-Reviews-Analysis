@@ -1,9 +1,6 @@
 # Arun-Travel-Reviews-Analysis
 Development of an Aspect Based Sentiment Model for Travel Reviews in Arun District.
 
-Order of notebooks:
-
-* Exploratory Data Analysis 1
-* Exploratory Data Analysis 2
+Notebooks are numbered to indicate sequence. All datasets are contained in the separate Datasets folder and each notebook indicates which datasets are needed to run the notebook.
 
 
