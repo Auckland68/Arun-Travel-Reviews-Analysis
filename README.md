@@ -10,7 +10,7 @@ Notebooks are numbered to indicate sequence. All datasets are contained in the s
 *  - Notebook 5 Text Preprocessing (text cleaning process - tokenization, spelling, lemmatization, regex etc)
 *  - Notebook 6 Sentiment Analyser Models (Textblob and Vader on uncleaned and cleaned text to predict binary user score)
 *  - Notebook 7 Review Text Content Models (cleaned text models to predict sentiment based on binary user score)
-*  - Notebook 8 Review Text Content Neural Network Models (minimally cleaned text to predict sentiment on binary user score)
+*  - Notebook 8 Review Text Content Neural Network Models (minimally cleaned text to predict sentiment on binary user score) NOTE MAKE SURE KERAS AND TENSORFLOW LOADED
 * Aspect Extraction:
 * - Keyword and Noun Phrase Extraction (cleaned reviews)
 * - LDA and NMF Topic Models using Nouns (cleaned reviews, exploded to sentence and then to noun phrases and noun words extracted)
