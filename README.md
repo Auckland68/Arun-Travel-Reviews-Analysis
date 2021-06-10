@@ -12,7 +12,7 @@ Notebooks are numbered to indicate sequence. All datasets are contained in the s
 *  - Notebook 7 Review Text Content Models (cleaned text models to predict sentiment based on binary user score)
 *  - Notebook 8 Review Text Content Neural Network Models (cleaned text to predict sentiment on binary user score)
 * Aspect Extraction:
-* - Keyword and Noun Phrase Extraction (cleaned reviews)
-* - LDA and NMF Topic Models using Nouns (cleaned reviews, exploded to sentence and then to noun phrases and noun words extracted)
-* - Visualisation of Aspects from NMF topic modelling
+* - Notebook 9 Keyword and Noun Phrase Extraction (cleaned reviews)
+* - Notebook 10 LDA and NMF Topic Models using Nouns (cleaned reviews, exploded to sentence and then to noun phrases and noun words extracted)
+* - Notebook 11 Visualisation of Aspects from NMF topic modelling
              
