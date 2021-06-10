@@ -5,10 +5,10 @@ Notebooks are numbered to indicate sequence. All datasets are contained in the s
 
 * Exploratory Data Analysis - Notebook 1 and Notebook 2
 * Base Sentiment Models:
-*  - Notebook 3 Review Post Attributes (user location, past contributions etc to predict binary user score)
-*  - Notebook 4 Review Text Attributes (number of words, use of punctuation, capitalisation etc to predict binary user score)
+*  - Notebook 3 Review Post Attributes Models (user location, past contributions etc to predict binary user score)
+*  - Notebook 4 Review Text Attributes Models (number of words, use of punctuation, capitalisation etc to predict binary user score)
 *  - Notebook 5 Text Preprocessing (text cleaning process - tokenization, spelling, lemmatization, regex etc)
-*  - Notebook 6 Sentiment Analyser Models (Textblob and Vader on uncleaned and cleaned text to predict binary user score)
+*  - Notebook 6 Unsupervised Models (Textblob and Vader on uncleaned and cleaned text to predict binary user score)
 *  - Notebook 7 Review Text Content Models (cleaned text models to predict sentiment based on binary user score)
 *  - Notebook 8 Review Text Content Neural Network Models (minimally cleaned text to predict sentiment on binary user score) NOTE MAKE SURE KERAS AND TENSORFLOW LOADED
 * Aspect Extraction:
