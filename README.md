@@ -17,7 +17,7 @@ Notebooks are numbered to indicate sequence. All datasets are contained in the s
 * - Notebook 10 LDA and NMF Topic Models using Nouns (cleaned reviews, exploded to sentence and then to noun phrases and noun words extracted)
 * - Notebook 11 Visualisation of Aspects from topic modelling output - including comparison of aspects across towns per category
 * - Notebook 12 Sentiment Models for the final aspects dataset
-* - Notebook 13 Aspect Models for the final aspects dataset
-* - Notebook 14 Summary Aspect and Sentiment Model
+* - Notebook 13 Aspect Models for the final aspects dataset NOT DONE YET
+* - Notebook 14 Summary Aspect and Sentiment Model NOT DONE YET
 
              
