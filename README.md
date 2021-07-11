@@ -18,8 +18,9 @@ Notebooks are numbered to indicate sequence. All datasets are contained in the s
 * - Notebook 11 Visualisation of Aspects from topic modelling output - including comparison of aspects across towns per category
 
 * Aspect and Sentiment Models
-* - Notebook 12 Sentiment Models for the final aspects dataset
-* - Notebook 13 Aspect Models for the final aspects dataset
+* - Notebook 12a Sentiment Models using noun phrases and machine learning models used in Notebook 7
+* - Notebook 12b Sentiment Models using noun phrases and neural network models
+* - Notebook 13 Aspect Models using nouns and neural network models for each category
 * - Notebook 14 Summary Aspect and Sentiment Model NOT DONE YET
 
              
