@@ -24,6 +24,6 @@ Notebooks are numbered to indicate sequence. All datasets are contained in the s
 * - Notebook 13b Aspect Models using nouns and neural network models 
 * - Notebook 14 Summary Aspect and Sentiment Model NOT DONE YET
 
-Opinion Spam
+* Opinion Spam
 * - Notebook 15 Opinion Spam Review
              
