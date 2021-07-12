@@ -20,7 +20,8 @@ Notebooks are numbered to indicate sequence. All datasets are contained in the s
 * Aspect and Sentiment Models
 * - Notebook 12a Sentiment Models using noun phrases and machine learning models used in Notebook 7
 * - Notebook 12b Sentiment Models using noun phrases and neural network models
-* - Notebook 13 Aspect Models using nouns and neural network models for each category
+* - Notebook 13a Aspect Models using nouns and machine learning models
+* - Notebook 13b Aspect Models using nouns and neural network models 
 * - Notebook 14 Summary Aspect and Sentiment Model NOT DONE YET
 
 Opinion Spam
