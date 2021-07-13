@@ -29,3 +29,5 @@ Notebooks are numbered to indicate sequence. Datasets are contained in the separ
   
 * Other Notebooks
 * - KMeans Clustering
+* - Word2Vec and Doc2Vec vectors (as input to ML models)
+
