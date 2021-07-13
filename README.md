@@ -28,6 +28,6 @@ Notebooks are numbered to indicate sequence. Datasets are contained in the separ
 * - Notebook 15 Opinion Spam Review
   
 * Other Notebooks
-* - KMeans Clustering
+* - KMeans Clustering (TFIDF vectors used as input to KMeans clustering)
 * - Word2Vec and Doc2Vec vectors (as input to ML models)
 
