@@ -26,4 +26,6 @@ Notebooks are numbered to indicate sequence. Datasets are contained in the separ
 
 * Opinion Spam
 * - Notebook 15 Opinion Spam Review
-             
+  
+* Other Notebooks
+* - KMeans Clustering
