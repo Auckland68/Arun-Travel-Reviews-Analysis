@@ -3,7 +3,7 @@ Development of an Aspect Based Sentiment Model for Travel Reviews in Arun Distri
 
 Notebooks are numbered to indicate sequence. Datasets are contained in the separate Datasets folder and each notebook indicates which datasets are needed to run the notebook and the files where processed data is saved to for use in another notebook. 
 
-Notebooks where other models or methods have been explored to try and find ways to address the problem but not expected to be part of the final write-up are included in the 'Other Notebooks' section. 
+Notebooks where other models or methods have been explored to try and find other ways to address the problem but not expected to be part of the final write-up are included in the 'Other Notebooks' section. 
 
 * Exploratory Data Analysis - Notebook 1 and Notebook 2
 * Base Sentiment Models:
