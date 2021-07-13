@@ -33,3 +33,4 @@ Notebooks where other models or methods have been explored to try and find other
 * - KMeans Clustering (TFIDF vectors used as input to KMeans clustering)
 * - Word2Vec and Doc2Vec vectors (as input to ML models)
 * - SemEval restaurant dataset (investigating whether a model can be trained to label the Arun food data)
+* - Aspect extraction with Spacy and language rules
