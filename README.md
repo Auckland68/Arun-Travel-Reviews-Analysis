@@ -20,11 +20,14 @@ Notebooks where other models or methods have been explored to try and find other
 * - Notebook 11 Visualisation of Aspects from topic modelling output - including comparison of aspects across towns per category
 
 * Aspect and Sentiment Models
-* - Notebook 12a Sentiment Models using noun phrases and machine learning models used in Notebook 7
-* - Notebook 12b Sentiment Models using noun phrases and neural network models
-* - Notebook 13a Aspect Models using nouns and machine learning models
-* - Notebook 13b Aspect Models using nouns and neural network models 
-* - Notebook 14 Summary Aspect and Sentiment Model NOT DONE YET
+* - Notebook 12a Aspect Models using nouns and machine learning models
+* - Notebook 12b Aspect Models using nouns and neural network models 
+* - Notebook 13a Binary Sentiment Models using machine learning models 
+* - Notebook 13b Binary Sentiment Models using neural network models
+* - Notebook 13c Multiclass Sentiment Models using machine learning models
+* - Notebook 13b Multiclass Sentiment Models using neural network models
+* - Notebook 14a Combined Aspect and Sentiment Model Using Binary Sentiment
+* - Notebook 14b Combined Aspect and Sentiment Model Using Multiclass Sentiment
 
 * Opinion Spam
 * - Notebook 15 Opinion Spam Review
