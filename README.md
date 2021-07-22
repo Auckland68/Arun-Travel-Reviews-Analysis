@@ -22,10 +22,10 @@ Notebooks where other models or methods have been explored to try and find other
 * Aspect and Sentiment Models
 * - Notebook 12a Aspect Models using nouns and machine learning models
 * - Notebook 12b Aspect Models using nouns and neural network models 
-* - Notebook 13a Binary Sentiment Models using machine learning models 
-* - Notebook 13b Binary Sentiment Models using neural network models
-* - Notebook 13c Multiclass Sentiment Models using machine learning models
-* - Notebook 13b Multiclass Sentiment Models using neural network models
+* - Notebook 13a Binary Sentiment Models using noun phrases and machine learning models 
+* - Notebook 13b Binary Sentiment Models using noun phrases and neural network models
+* - Notebook 13c Multiclass Sentiment Models using noun phrases and machine learning models
+* - Notebook 13b Multiclass Sentiment Models using noun phrases and neural network models
 * - Notebook 14a Combined Aspect and Sentiment Model Using Binary Sentiment
 * - Notebook 14b Combined Aspect and Sentiment Model Using Multiclass Sentiment
 
