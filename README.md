@@ -32,7 +32,7 @@ Notebooks where other models or methods have been explored to try and find other
 * Opinion Spam
 * - Notebook 15 Opinion Spam Review
   
-* Other Notebooks (Other Methodologies Investigated as part of the Review but not deemed to be useful or successful)
+* Other Notebooks (other methodologies investigated as part of the review but not deemed to be useful or successful for this problem)
 * - KMeans Clustering (TFIDF vectors used as input to KMeans clustering)
 * - Word2Vec and Doc2Vec vectors (as input to ML models)
 * - SemEval restaurant dataset (investigating whether a model can be trained to label the Arun food data)
