@@ -37,3 +37,5 @@ Notebooks where other models or methods have been explored to try and find other
 * - Word2Vec and Doc2Vec vectors (as input to ML models)
 * - SemEval restaurant dataset (investigating whether a model can be trained to label the Arun food data)
 * - Aspect extraction with Spacy and language rules
+
+* Streamlit Interactive App - code to run an interactive application to analyse and view the review data, based on those reviews containing location information. To run the code in the browser the streamlit package needs to be installed. From the directory where the code is located the command streamlit run filename.py will render the app in the browser.
