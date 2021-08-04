@@ -8,24 +8,23 @@ from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 
 import pickle
+import string
 
 from collections import Counter
 import nltk
+import contractions
 from nltk.corpus import stopwords
 from nltk.util import ngrams
 from nltk.tokenize import sent_tokenize
-import contractions
-import re
-import string
 
-
-from gensim.summarization.summarizer import summarize
-from gensim.summarization import keywords
+#from gensim.summarization.summarizer import summarize
+#from gensim.summarization import keywords
 
 st.title("Arun District Travel Review Data")
 st.sidebar.subheader("Dashboards")
 dashboard_choice = st.sidebar.selectbox("Please Choose Dashboard",("Exploratory Data Analysis","Keyword Analysis"),key = "main")
 st.markdown("This application is a Streamlit Dashboard to analyse Tourist Reviews in Arun District️")
+st.markdown("Please note it is a demonstration application only and is based on a sample of reviews from the dataset")
 #st.sidebar.title("Arun District Travel Review Data 2019")
 st.sidebar.subheader("Arun District Travel Review Data")
 
@@ -38,7 +37,6 @@ def load_data():
     return data
 
 data = load_data()
-
 
 if dashboard_choice == "Exploratory Data Analysis":
     if st.sidebar.checkbox('Show Raw Data'):
@@ -121,6 +119,7 @@ if dashboard_choice == "Exploratory Data Analysis":
                'Beach/Outdoor', 'Shopping', 'Spas/Leisure Centres','Classes/Workshops'])
 
         st.header('Sentiment By Category, Town and Establishment Type')
+        st.markdown("Please enter at least one establishment type from the menu on the sidebar")
         st.subheader("%s %s %s" % (town_choice, category_choice, type_choice))
         sentiment_counts = data[(data["town"] == town_choice) & (data["category"] == category_choice) & (data["type"].isin(type_choice))]["sentiment"].value_counts()
         sentiment_counts = pd.DataFrame({"Sentiment":sentiment_counts.index,"Number of Reviews":sentiment_counts.values})
@@ -217,4 +216,4 @@ elif dashboard_choice == "Keyword Analysis":
 
     st.markdown("Note: Single words provide overall aspects of interest, pairs of nouns or bigrams can be more informative, as can choosing noun phrases which usually pair a noun with an adjective")
 
-
+### Not complete...Sentiment Analyser to follow
