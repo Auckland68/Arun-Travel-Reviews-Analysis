@@ -38,4 +38,4 @@ Notebooks where other models or methods have been explored to try and find other
 * - SemEval restaurant dataset (investigating whether a model can be trained to label the Arun food data)
 * - Aspect extraction with Spacy and language rules
 
-* Streamlit Interactive App - code to run an interactive application to analyse and view the review data, based on those reviews containing location information. To run the code in the browser the streamlit package needs to be installed. From the directory where the code is located the command streamlit run filename.py will render the app in the browser.
+* Streamlit Interactive App - code to run an interactive application to analyse and view the review data, based on those reviews containing location information. To run the code in the browser the streamlit package needs to be installed. From the directory where the code is located the command streamlit run filename.py will render the app in the browser. The models and tokenizers needed to run the model are also shown. The attractions model is too large to upload to github so just the weights are used. The model can be reconstructed from that using Model 10 in Notebook 12b
