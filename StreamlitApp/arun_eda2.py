@@ -32,6 +32,7 @@ from keras.models import Sequential
 from keras.preprocessing.sequence import pad_sequences
 from keras.callbacks import EarlyStopping,ModelCheckpoint
 from keras.layers import Dense,Flatten,Embedding,Dropout
+from keras.models import model_from_json
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.title("Arun District Travel Review Data")
@@ -57,6 +58,15 @@ def open_tok(name):
         file = pickle.load(handle)
         return file
 
+# load json and create model
+json_file = open('model10.json', 'r')
+loaded_model_json = json_file.read()
+json_file.close()
+loaded_model = model_from_json(loaded_model_json)
+# load weights into new model
+loaded_model.load_weights("model10.h5")
+loaded_model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
 # Load tokenizers and models
 accom_tok = open_tok("accom_tokprot4.pickle")
 food_tok = open_tok("food_tokprot4.pickle")
@@ -65,7 +75,7 @@ sent_tok = open_tok('sent_tokprot4.pickle')
 
 model1 = joblib.load('best_model_accom.sav')
 model2 = load_model('best_model_food.h5')
-model3 = load_model('best_model_attract.h5')
+model3 = loaded_model
 model4 = open_tok('model4prot4.pickle')
 
 
