@@ -16,6 +16,10 @@ from collections import Counter
 import nltk
 import contractions
 from nltk.corpus import stopwords
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('brown')
 from nltk.util import ngrams
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
@@ -27,6 +31,7 @@ from keras.preprocessing.sequence import pad_sequences
 from keras.callbacks import EarlyStopping,ModelCheckpoint
 from keras.layers import Dense,Flatten,Embedding,Dropout
 from keras.models import model_from_json
+
 #st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.title("Arun District Travel Review Data")
@@ -40,7 +45,7 @@ st.sidebar.subheader("Arun District Travel Review Data")
 # Load dataset and cache the output
 DATA_URL = ("new_data.csv")
 
-@st.cache(allow_output_mutation=True, max_entries = 10, ttl=3600)
+@st.cache()
 def load_data():
     data = pd.read_csv(DATA_URL)
     return data
@@ -53,6 +58,7 @@ def open_tok(name):
         return file
 
 # load json and create model
+st.cache()
 json_file = open('model10.json', 'r')
 loaded_model_json = json_file.read()
 json_file.close()
@@ -62,11 +68,11 @@ loaded_model.load_weights("model10.h5")
 loaded_model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Load tokenizers and models
+st.cache()
 accom_tok = open_tok("accom_tokprot4.pickle")
 food_tok = open_tok("food_tokprot4.pickle")
 attract_tok = open_tok("attract_tokprot4.pickle")
 sent_tok = open_tok('sent_tokprot4.pickle')
-
 model1 = joblib.load('best_model_accom.sav')
 model2 = load_model('best_model_food.h5')
 model3 = loaded_model
@@ -194,10 +200,6 @@ if dashboard_choice == "Exploratory Data Analysis":
         st.sidebar.markdown(random.iat[0,2])
 
 elif dashboard_choice == "Keyword Analysis":
-
-    nltk.download('punkt')
-    nltk.download('stopwords')
-    nltk.download('averaged_perceptron_tagger')
 
     # Get keywords by town, category and sentiment
     st.sidebar.subheader("Keywords By Town, Category and Sentiment")
@@ -480,4 +482,6 @@ else:
             with st.spinner("Analysing the text"):
                 df = review_analyser(review,category)
                 df.drop(columns = ["A","S","Score","Sentences"],axis = 1, inplace = True)
+                df = df.groupby(['Predicted Aspect', 'Predicted Sentiment']).size().reset_index(name="Number")
+                df = df.groupby(['Predicted Aspect', 'Predicted Sentiment']).size().reset_index(name="Number")
                 st.write(df)
