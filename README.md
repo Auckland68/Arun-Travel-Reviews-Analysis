@@ -42,3 +42,5 @@ Notebooks where other models or methods have been explored to try and find other
 *  To run the code in the browser the streamlit package needs to be installed. From the directory where the code is located the command streamlit run filename.py will render the app in the browser. The models and tokenizers needed to run the model are also shown. The attractions model is too large to upload to github so just the weights are used. The model can be reconstructed from that using Model 10 in Notebook 12b.
 *  The streamlit app is also set to run on Streamlit IO and can be accessed here https://share.streamlit.io/auckland68/streamlitarun/main/arun_eda2.py
 *  The app sometimes shows an error. This is because Streamlit has strict resource limits so the caching limit is set to 600 (10 minutes) and maximum of 10 functions to run rather than persisting. Try the link again until it runs.
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMeCg1zQmoZHV0fzn6kCADhNJnGzEgbfqGTiekUmxJSt user-4575517@gitfront.io
