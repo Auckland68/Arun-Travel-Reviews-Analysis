@@ -5,6 +5,8 @@ Notebooks are numbered to indicate sequence. Datasets are contained in the separ
 
 Notebooks where other models or methods have been explored to try and find other ways to address the problem but not expected to be part of the final write-up are included in the 'Other Notebooks' section. 
 
+All datasets have been removed from this repository and no longer available for download.
+
 * Exploratory Data Analysis - Notebook 1 and Notebook 2
 * Base Sentiment Models:
 *  - Notebook 3 Review Post Attributes Models (user location, past contributions etc to predict binary user score)
